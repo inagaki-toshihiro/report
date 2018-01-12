@@ -8,7 +8,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって表示された原画像は図1のようになった．
 
-Imgur
+![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai1-1.png)
 
 図1　原画像
 
@@ -22,7 +22,7 @@ imagesc(IMG2); axis image; % 画像の表示
 
 1/2サンプリングの結果を図２に示す．
 
-Imgur
+![](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai1-2.png)
 
 図2 1/2サンプリング
 
@@ -36,19 +36,19 @@ imagesc(IMG2); axis image; % 画像の表示
 
 1/4サンプリングの結果を図２に示す．
 
-Imgur
+![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai1-3.png)
 
 図3 1/4サンプリング
 
-Imgur
+![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai1-4.png)
 
 図4 1/8サンプリング
 
-Imgur
+![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai1-5.png)
 
 図5 1/16サンプリング
 
-Imgur
+![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai1-6.png)
 
 図6 1/32サンプリング
 
