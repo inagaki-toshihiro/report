@@ -9,7 +9,7 @@ imagesc(ORG); colormap(gray); colorbar;
 
 表示結果は図1のようになる．
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai6-1.png)  
 図1　原画像
 
@@ -19,7 +19,7 @@ IMG = ORG>128; % 128による二値化
 
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai6-2.png)  
 図2　128による二値化の画像
 
@@ -28,7 +28,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 IMG = dither(ORG); % ディザ法による二値化  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai6-3.png)  
 図3　ディザ法による2値化の画像
 

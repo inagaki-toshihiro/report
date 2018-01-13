@@ -9,7 +9,7 @@ imagesc(ORG); colormap(gray); colorbar;
 
 表示結果は図1のようになる．
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai5-1.png)  
 図1　原画像
 
@@ -40,7 +40,7 @@ imagesc(IMG); colormap(gray); colorbar;
 
 表示結果は図2のようになる
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai5-2.png)  
 図2　判別法を用いた2値化
 

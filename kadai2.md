@@ -8,14 +8,14 @@ ORG = rgb2gray(ORG); colormap(gray); colorbar;
 imagesc(ORG); axis image; % 画像の表示  
 
 によって表示された原画像は図1のようになった．
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai2-1.png?)  
 画像1　原画像
 
 この画像を2値化すると図2のようになる．
 
 IMG = ORG>128; imagesc(IMG); colormap(gray); colorbar; axis image;
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai2-2.png)  
 画像2　2値化した画像
 
@@ -26,7 +26,7 @@ IMG1 = ORG>128;
 IMG2 = ORG>192;  
 IMG = IMG0 + IMG1 + IMG2;  
 imagesc(IMG); colormap(gray); colorbar; axis image;  
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai2-3.png)  
 画像3　4値化した画像
 
@@ -41,7 +41,7 @@ IMG5 = ORG>192;
 IMG6 = ORG>224;  
 IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;  
 imagesc(IMG); colormap(gray); colorbar; axis image;  
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai2-4.png)  
 画像4　8値化した画像
 

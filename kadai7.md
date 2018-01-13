@@ -9,7 +9,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図1のようになった．
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai7-1.png)  
 図1　原画像
 
@@ -17,7 +17,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 imhist(ORG); % 濃度ヒストグラムを生成、表示
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai7-2.png)  
 図2　濃度ヒストグラム
 
@@ -31,11 +31,11 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 ORG = uint8(ORG);  
 imhist(ORG); % 濃度ヒストグラムを生成、表示  
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai7-3.png)  
 図3　平衡化した画像
 
-<div align="center">
+
 ![原画像](https://github.com/inagaki-toshihiro/report/blob/master/image/kadai7-4.png)  
 図4　平衡化した画像のヒストグラム
 
